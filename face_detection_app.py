@@ -36,11 +36,11 @@ def detect_faces(scale_factor, min_neighbors, rect_color):
         stframe.image(frame_rgb, channels="RGB", use_column_width=True)
 
         # Add a small delay to control the frame rate
-        cv2.waitKey(1)
+        # cv2.waitKey(1) # Removed this line to avoid GUI function error
 
     # Release the capture when done
     cap.release()
-    cv2.destroyAllWindows()
+    # Removed cv2.destroyAllWindows() since it's not needed in Streamlit
 
 def main():
     st.title("Real-Time Face Detection using Viola-Jones Algorithm")

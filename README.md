@@ -33,5 +33,6 @@ Hi, I'm Ghazi Lassoued! I'm passionate about computer vision and developing inte
 
 - Thanks to the OpenCV and Streamlit communities for their awesome libraries.
 - Special thanks to all contributors and users for their support and feedback.
+  link for video recording : https://files.fm/u/m22kbavrvs
 
 
